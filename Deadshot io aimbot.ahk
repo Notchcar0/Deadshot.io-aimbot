@@ -27,7 +27,7 @@ CoordMode, Mouse, Screen
 PID := DllCall("GetCurrentProcessId")
 Process, Priority, %PID%, High
 
-EMCol := 0xff1919
+EMCol := 0xff2e2e
 ColVn := 2
 AntiShakeX := (A_ScreenHeight // 160)
 AntiShakeY := (A_ScreenHeight // 128)
